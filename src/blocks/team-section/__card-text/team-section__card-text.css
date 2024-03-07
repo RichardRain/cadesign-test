@@ -1,0 +1,9 @@
+.team-section__card-text {
+  max-inline-size: clamp(17.375rem, 1.6607rem + 78.5714vw, 39.375rem);
+  color: var(--card-text-color, #242627);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(0.8125rem, 0.5893rem + 1.1161vw, 1.125rem);
+  line-height: clamp(1.375rem, 0.9286rem + 2.2321vw, 2rem);
+  text-align: center;
+}

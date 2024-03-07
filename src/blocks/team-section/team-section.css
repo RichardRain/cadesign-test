@@ -1,0 +1,19 @@
+@import url('./__card-image/team-section__card-image.css');
+@import url('./__image-block/team-section__image-block.css');
+@import url('./__card-title/team-section__card-title.css');
+@import url('./__card-role/team-section__card-role.css');
+@import url('./__card-text/team-section__card-text.css');
+@import url('./__control/team-section__control.css');
+@import url('./__control-element/team-section__control-element.css');
+@import url('./__control-icon/team-section__control-icon.css');
+@import url('./__control-button/team-section__control-button.css');
+@import url('./__control-button/team-section__control-button_active.css');
+
+.team-section {
+  padding: 38px 20px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 34px;
+}

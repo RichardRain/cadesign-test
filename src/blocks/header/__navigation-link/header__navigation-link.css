@@ -1,0 +1,25 @@
+.header__navigation-link {
+  position: relative;
+  display: block;
+  min-block-size: 100%;
+  color: var(--header-link-color, #242627);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: 16px;
+  line-height: 19.84px;
+  text-decoration: none;
+}
+
+.header__navigation-link:focus-visible {
+  outline: none;
+}
+
+.header__navigation-link:focus::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: -7px;
+  min-inline-size: calc(100% + 14px);
+  block-size: 2px;
+  background-color: var(--accent-color, #e9862a);
+}

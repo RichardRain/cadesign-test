@@ -1,2 +1,9 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
+@import url('../blocks/variables.css');
+@import url('../blocks/global.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/hero-section/hero-section.css');
+@import url('../blocks/team-section/team-section.css');
+@import url('../blocks/footer/footer.css');

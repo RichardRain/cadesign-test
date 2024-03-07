@@ -1,0 +1,6 @@
+.header__navigation-list {
+  min-block-size: 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}

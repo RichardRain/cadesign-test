@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Helios';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/helios.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Helios';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("./fonts/heliosbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Helios';
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/heliosbolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'HeliosC';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/heliosc.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HeliosC';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("./fonts/heliosc_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Helios';
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/heliosc_bolditalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Gilroy-Light.otf") format("opentype");
+}

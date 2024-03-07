@@ -1,0 +1,5 @@
+.footer__logo-icon {
+  fill: var(--footer-logo-color, #c3c8c8);
+  min-inline-size: clamp(4.25rem, 3.7143rem + 2.6786vw, 5rem);
+  min-block-size: clamp(1.009375rem, 0.8821rem + 0.6362vw, 1.1875rem);
+}

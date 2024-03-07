@@ -1,0 +1,9 @@
+.team-section__card-role {
+  color: var(--card-role-color, #828282);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(0.8125rem, 0.6786rem + 0.6696vw, 1rem);
+  line-height: 28px;
+  text-align: center;
+  margin-block-end: clamp(0.9375rem, -0.1786rem + 5.5804vw, 2.5rem);
+}

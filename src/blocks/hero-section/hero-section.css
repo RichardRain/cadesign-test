@@ -1,0 +1,29 @@
+@import url('./__title/hero-section__title.css');
+@import url('./__image/hero-section__image.css');
+@import url('./__image-block/hero-section__image-block.css');
+@import url('./__content/hero-section__content.css');
+@import url('./__background-element/hero-section__background-element.css');
+@import url('./__background-block/hero-section__background-block.css');
+@import url('./__button/hero-section__button.css');
+
+.hero-section {
+  min-block-size: clamp(19.875rem, 16.3036rem + 17.8571vw, 24.875rem);
+  padding-block-start: clamp(1.5rem, -1.3125rem + 14.0625vw, 5.4375rem);
+  padding-block-end: clamp(2.375rem, -1.5536rem + 19.6429vw, 7.875rem);
+  padding-inline: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  background-image: url('../../images/building.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    min-block-size: clamp(24.875rem, 22.2434rem + 5.4825vw, 28rem);
+    padding-block-start: clamp(5.4375rem, 3.648rem + 3.7281vw, 7.5625rem);
+    padding-block-end: clamp(7.5rem, 8.1908rem + -0.6579vw, 7.875rem);
+    padding-inline: clamp(2.5rem, -8.4474rem + 22.807vw, 15.5rem);
+  }
+}

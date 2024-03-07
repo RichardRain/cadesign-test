@@ -1,0 +1,18 @@
+.hero-section__title {
+  max-inline-size: clamp(17.5625rem, 12.9643rem + 22.9911vw, 24rem);
+  color: var(--main-color, #fff);
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  font-size: clamp(1.375rem, 1.0179rem + 1.7857vw, 1.875rem);
+  line-height: clamp(1.5975rem, 1.1823rem + 2.0759vw, 2.17875rem);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-section__title {
+    max-inline-size: clamp(24rem, 13.0526rem + 22.807vw, 37rem);
+    font-size: clamp(1.875rem, 1.5592rem + 0.6579vw, 2.25rem);
+    line-height: clamp(2.17875rem, 1.8119rem + 0.7643vw, 2.614375rem);
+    text-align: left;
+  }
+}

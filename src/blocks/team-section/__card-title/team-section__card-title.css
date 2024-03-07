@@ -1,0 +1,9 @@
+.team-section__card-title {
+  color: var(--card-text-color, #242627);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(1.25rem, 0.8929rem + 1.7857vw, 1.75rem);
+  line-height: 28px;
+  text-align: center;
+  margin-block-end: clamp(0.3125rem, -0.3571rem + 3.3482vw, 1.25rem);
+}

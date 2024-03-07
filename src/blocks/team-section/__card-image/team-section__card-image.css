@@ -1,0 +1,8 @@
+.team-section__card-image {
+  inline-size: 100%;
+  min-block-size: clamp(12.1875rem, 3.7946rem + 41.9643vw, 23.9375rem);
+  object-fit: cover;
+  position: relative;
+  bottom: -5px;
+  left: -40px;
+}

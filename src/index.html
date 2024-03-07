@@ -5,7 +5,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CADesign</title>
 </head>
-<body>
-
+<body class="page">
+  <header class="header">
+    <a class="header__logo" href="#">
+      <svg viewBox="0 0 115 25" width="115" height="25">
+        <use href="#logo_colored"></use>
+      </svg>
+    </a>
+    <button class="header__menu-button header__menu-button_visible" type="button">
+      <svg viewBox="0 0 28 18" width="28" height="18">
+        <use href="#ui_menu"></use>
+      </svg>
+    </button>
+    <nav class="header__navigation-menu">
+      <ul class="header__navigation-list">
+        <li class="header__navigation-item">
+          <a href="#" class="header__navigation-link">О нас</a>
+        </li>
+        <li class="header__navigation-item">
+          <a href="#" class="header__navigation-link">Наши ценности</a>
+        </li>
+        <li class="header__navigation-item">
+          <a href="#" class="header__navigation-link">Вакансии</a>
+        </li>
+        <li class="header__navigation-item">
+          <a href="#" class="header__navigation-link">Начало карьеры</a>
+        </li>
+        <li class="header__navigation-item">
+          <a href="#" class="header__navigation-link">Контакты</a>
+        </li>
+        <li class="header__navigation-item">
+          <button class="header__navigation-button">
+            Социальные сети
+            <svg viewBox="0 0 5 5" width="5" height="5">
+              <use href="#ui_dropdown"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__line"></div>
+  </header>
+  <main class="main">
+    <section class="hero-section">
+      <div class="hero-section__content">
+        <h1 class="hero-section__title">Энергия твоего роста! – заряжаем твою карьеру</h1>
+        <button class="hero-section__button" type="button">Cтать частью команды</button>
+      </div>
+      <div class="hero-section__image-block">
+        <picture>
+          <source srcset="<%=require('./images/people.webp')%>" type="image/webp"/>
+          <source srcset="<%=require('./images/people.avif')%>" type="image/avif"/>
+          <img src="<%=require('./images/people.png')%>" alt="" class="hero-section__image" loading="lazy">
+        </picture>
+      </div>
+      <div class="hero-section__background-element"></div>
+    </section>
+    <section class="team-section">
+      <ul class="team-section__list">
+        <li class="team-section__list-item">
+          <article class="team-section__card">
+            <div class="team-section__image-block">
+              <picture>
+                <source srcset="<%=require('./images/ceo.webp')%>" type="image/webp"/>
+                <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
+                <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
+              </picture>
+            </div>
+            <h2 class="team-section__card-title">Евдокимова Майя</h2>
+            <p class="team-section__card-role">Генеральный директор</p>
+            <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+          </article>
+        </li>
+      </ul>
+      <ul class="team-section__control">
+        <li class="team-section__control-element">
+          <button class="team-section__control-button">
+            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+              <use href="#ui_dot"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="team-section__control-element">
+          <button class="team-section__control-button team-section__control-button_active">
+            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+              <use href="#ui_dot"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="team-section__control-element">
+          <button class="team-section__control-button">
+            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+              <use href="#ui_dot"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <address class="footer__address">© 1998–2019,«Компания», 53002, Иваново, Лежневская 34 корпус 1</address>
+    <a href="#" class="footer__link">Политика обработки персональных данных</a>
+    <a class="footer__logo" href="#">
+      <svg class="footer__logo-icon" viewBox="0 0 68 16.15" width="68" height="16.15">
+        <use href="#logo_not-colored"></use>
+      </svg>
+    </a>
+  </footer>
+  <div class="popup popup__navigation-menu">
+  </div>
 </body>
 </html>

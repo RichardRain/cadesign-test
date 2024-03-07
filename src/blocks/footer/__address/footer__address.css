@@ -1,0 +1,10 @@
+.footer__address {
+  color: var(--footer-text-color, #828282);
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 16.31px;
+  text-align: center;
+  margin-block-end: clamp(1rem, 0.9554rem + 0.2232vw, 1.0625rem);
+}

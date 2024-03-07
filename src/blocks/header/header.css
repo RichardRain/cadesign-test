@@ -1,0 +1,27 @@
+@import url('./__logo/header__logo.css');
+@import url('./__menu-button/header__menu-button.css');
+@import url('./__navigation-menu/header__navigation-menu.css');
+@import url('./__line/header__line.css');
+@import url('./__navigation-list/header__navigation-list.css');
+@import url('./__navigation-item/header__navigation-item.css');
+@import url('./__navigation-link/header__navigation-link.css');
+@import url('./__navigation-button/header__navigation-button.css');
+
+.header {
+  min-block-size: clamp(4.5rem, 3.4286rem + 5.3571vw, 6rem);
+  padding-block: clamp(1.5rem, 1.0536rem + 2.2321vw, 2.125rem);
+  padding-inline: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header {
+    position: relative;
+    align-items: flex-start;
+    min-block-size: clamp(6rem, 4rem + 4.1667vw, 8.375rem);
+    padding-block-start: clamp(2.125rem, 1.4934rem + 1.3158vw, 2.875rem);
+    padding-inline: clamp(2.5rem, -8.5526rem + 23.0263vw, 15.625rem);
+  }
+}

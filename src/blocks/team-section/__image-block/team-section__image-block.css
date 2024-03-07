@@ -1,0 +1,9 @@
+.team-section__image-block {
+  background-color: var(--card-background-color, #f7f7f7);
+  min-block-size: clamp(12.5625rem, 4.4375rem + 40.625vw, 23.9375rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  margin-block-end: 25px;
+}

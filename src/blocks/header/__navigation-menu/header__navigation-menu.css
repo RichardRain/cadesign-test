@@ -1,0 +1,13 @@
+.header__navigation-menu {
+  display: none;
+  min-block-size: 48px;
+  position: relative;
+  top: 3px;
+  right: -10px;
+}
+
+@media (min-width: 1680px) {
+  .header__navigation-menu {
+    display: block;
+  }
+}

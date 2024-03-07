@@ -1,0 +1,27 @@
+:root {
+  --main-color: #fff;
+  --secondary-color: #4f4f4f;
+  --accent-color: #e9862a;
+  --header-line-color: #f2f2f2;
+  --header-link-color: #242627;
+  --header-button-color: #187cd3;
+  --hero-background-color: #003264;
+  --card-background-color: #f7f7f7;
+  --card-text-color: #242627;
+  --card-role-color: #828282;
+  --footer-text-color: #828282;
+  --footer-link-color: #187cd3;
+  --footer-logo-color: #c3c8c8;
+  --main-font: Helios;
+  --accent-font: HeliosC;
+  --secondary-font: Gilroy;
+  --main-weight: 400;
+  --accent-weight: 700;
+  --secondary-weight: 500;
+  --breakpoint-mobile: 320px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1680px;
+  --background-layer: 0;
+  --middleground-layer: 1;
+  --foreground-layer: 2;
+}

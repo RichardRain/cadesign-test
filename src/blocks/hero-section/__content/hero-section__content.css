@@ -1,0 +1,13 @@
+.hero-section__content {
+  z-index: var(--foreground-layer, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero-section__content {
+    align-items: flex-start;
+  }
+}

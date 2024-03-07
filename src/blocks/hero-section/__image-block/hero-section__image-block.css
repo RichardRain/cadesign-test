@@ -1,0 +1,14 @@
+.hero-section__image-block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: var(--middleground-layer, 1);
+  inline-size: 100%;
+  block-size: 100%;
+  /* max-block-size: clamp(14.375rem, 9.7321rem + 23.2143vw, 20.875rem); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  /* min-inline-size: clamp(21rem, 12.4732rem + 42.6339vw, 32.9375rem); */
+}

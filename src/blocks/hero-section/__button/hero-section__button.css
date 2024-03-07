@@ -1,0 +1,11 @@
+.hero-section__button {
+  min-inline-size: clamp(13.9375rem, 12.5536rem + 6.9196vw, 15.875rem);
+  min-block-size: clamp(3.5rem, 3.1429rem + 1.7857vw, 4rem);
+  color: var(--main-color, #fff);
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  font-size: clamp(0.875rem, 0.7857rem + 0.4464vw, 1rem);
+  line-height: clamp(1.016875rem, 0.9133rem + 0.5179vw, 1.161875rem);
+  background-color: var(--accent-color, #e9862a);
+  border: none;
+}

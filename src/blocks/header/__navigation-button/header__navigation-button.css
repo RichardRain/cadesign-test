@@ -1,0 +1,10 @@
+.header__navigation-button {
+  color: var(--header-button-color, #187cd3);
+  font-family: var(--secondary-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--secondary-weight, 500);
+  font-size: 14px;
+  line-height: 16.48px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
