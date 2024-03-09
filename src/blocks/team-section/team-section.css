@@ -1,5 +1,7 @@
 @import url('./__card-image/team-section__card-image.css');
 @import url('./__image-block/team-section__image-block.css');
+@import url('./__card/team-section__card.css');
+@import url('./__content/team-section__content.css');
 @import url('./__card-title/team-section__card-title.css');
 @import url('./__card-role/team-section__card-role.css');
 @import url('./__card-text/team-section__card-text.css');
@@ -8,12 +10,24 @@
 @import url('./__control-icon/team-section__control-icon.css');
 @import url('./__control-button/team-section__control-button.css');
 @import url('./__control-button/team-section__control-button_active.css');
+@import url('./__previous-button/team-section__previous-button.css');
+@import url('./__next-button/team-section__next-button.css');
 
 .team-section {
-  padding: 38px 20px 42px;
+  padding-block-start: clamp(2.375rem, 1.8393rem + 2.6786vw, 3.125rem);
+  padding-block-end: clamp(2.625rem, 0.6607rem + 9.8214vw, 5.375rem);
+  padding-inline: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 34px;
+}
+
+@media (min-width: 768px) {
+  .team-section {
+    padding-block-start: 0;
+    padding-block-end: clamp(3.75rem, 6.7434rem + -2.8509vw, 5.375rem);
+    padding-inline: clamp(2.5rem, -0.6579rem + 6.5789vw, 6.25rem);
+  }
 }

@@ -1,9 +1,15 @@
 .team-section__image-block {
   background-color: var(--card-background-color, #f7f7f7);
-  min-block-size: clamp(12.5625rem, 4.4375rem + 40.625vw, 23.9375rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  block-size: clamp(12.5rem, 3.5714rem + 44.6429vw, 25rem);
+  min-inline-size: clamp(17.5rem, -0.7143rem + 91.0714vw, 43rem);
   overflow: hidden;
-  margin-block-end: 25px;
+  margin-block-end: clamp(1.5625rem, 0.4464rem + 5.5804vw, 3.125rem);
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .team-section__image-block {
+    block-size: clamp(25.0625rem, 22.6941rem + 4.9342vw, 27.875rem);
+    min-inline-size: clamp(43rem, 1.3158rem + 86.8421vw, 92.5rem);
+  }
 }

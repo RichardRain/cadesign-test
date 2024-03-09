@@ -21,4 +21,10 @@
   <symbol id="dropdown" viewBox="0 0 5 4">
     <path fill="#242627" d="M2.5 4 .335.25h4.33L2.5 4Z"/>
   </symbol>
+  <symbol id="previous" viewBox="0 0 6 10">
+    <path fill="#242627" d="M6 8.571 2.354 5 6 1.429 5.27 0 .168 5l5.104 5L6 8.571Z"/>
+  </symbol>
+  <symbol id="next" viewBox="0 0 6 10">
+    <path fill="#242627" d="M0 8.571 3.646 5 0 1.429.73 0l5.103 5L.73 10 0 8.571Z"/>
+  </symbol>
 </svg>

@@ -1,0 +1,19 @@
+.features-section {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .features-section {
+    display: block;
+    min-block-size: 528px;
+    padding: 62px 40px 121px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .features-section {
+    display: block;
+    min-block-size: 899px;
+    padding: 76px 40px 70px;
+  }
+}

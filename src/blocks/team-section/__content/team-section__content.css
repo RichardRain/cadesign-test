@@ -1,0 +1,21 @@
+.team-section__content {
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  text-align: center;
+}
+
+/* Для красоты выбрал нестандартные брейкпойнты */
+
+@media (width > 768px) {
+  .team-section__content {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1330px) {
+  .team-section__content {
+    position: absolute;
+    top: 117px;
+    left: 142px;
+  }
+}

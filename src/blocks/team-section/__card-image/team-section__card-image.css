@@ -1,8 +1,21 @@
 .team-section__card-image {
+  --shiftX: calc(-1 * clamp(2.5rem, 1.1607rem + 6.6964vw, 4.375rem));
+  --shiftY: clamp(0.3125rem, -0.1339rem + 2.2321vw, 0.9375rem);
   inline-size: 100%;
-  min-block-size: clamp(12.1875rem, 3.7946rem + 41.9643vw, 23.9375rem);
-  object-fit: cover;
-  position: relative;
-  bottom: -5px;
-  left: -40px;
+  block-size: 100%;
+  object-fit: contain;
+  transform: translate(var(--shiftX), var(--shiftY)) scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .team-section__card-image {
+    --shiftX: clamp(-4.375rem, -30.1645rem + 53.7281vw, 26.25rem);
+    transform: translate(var(--shiftX), var(--shiftY)) scale(0.95);
+  }
+}
+
+@media (min-width: 1680px) {
+  .team-section__card-image {
+    transform: translate(420px, 15px) scale(0.95);
+  }
 }

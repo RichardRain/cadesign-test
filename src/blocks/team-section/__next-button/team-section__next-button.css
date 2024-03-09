@@ -1,0 +1,17 @@
+.team-section__next-button {
+  display: none;
+  position: absolute;
+  top: calc(50% - 47px);
+  right: clamp(2rem, 1.5789rem + 0.8772vw, 2.5rem);
+  block-size: 94px;
+  inline-size: 52px;
+  background-color: transparent;
+  border: 1px solid var(--card-button-border-color, #e0e0e0);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .team-section__next-button {
+    display: block;
+  }
+}

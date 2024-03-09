@@ -1,5 +1,11 @@
 .team-section__control {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  gap: clamp(1.5625rem, 0.8188rem + 3.7187vw, 2.60375rem);
+}
+
+@media (min-width: 768px) {
+  .team-section__control {
+    display: none;
+  }
 }

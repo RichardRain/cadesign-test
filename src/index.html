@@ -65,6 +65,9 @@
         </svg>
       </div>
     </section>
+    <section class="features-section">
+
+    </section>
     <section class="team-section">
       <ul class="team-section__list">
         <li class="team-section__list-item">
@@ -75,10 +78,22 @@
                 <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
                 <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
               </picture>
+              <button class="team-section__previous-button" type="button">
+                <svg viewBox="0 0 6 10" width="6" height="10">
+                  <use href="#ui_previous"></use>
+                </svg>
+              </button>
+              <button class="team-section__next-button" type="button">
+                <svg viewBox="0 0 6 10" width="6" height="10">
+                  <use href="#ui_next"></use>
+                </svg>
+              </button>
             </div>
-            <h2 class="team-section__card-title">Евдокимова Майя</h2>
-            <p class="team-section__card-role">Генеральный директор</p>
-            <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+            <div class="team-section__content">
+              <h2 class="team-section__card-title">Евдокимова Майя</h2>
+              <p class="team-section__card-role">Генеральный директор</p>
+              <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+            </div>
           </article>
         </li>
       </ul>
