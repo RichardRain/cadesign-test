@@ -1,0 +1,8 @@
+.cover {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: var(--cover-layer, 3);
+  background-color: var(--cover-color, #242627);
+  opacity: 84%;
+}

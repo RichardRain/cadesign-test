@@ -19,6 +19,8 @@
   --footer-text-color: #828282;
   --footer-link-color: #187cd3;
   --footer-logo-color: #c3c8c8;
+  --cover-color: #242627;
+  --popup-menu-color: #242627;
   --main-font: Helios;
   --accent-font: HeliosC;
   --secondary-font: Gilroy;
@@ -31,4 +33,6 @@
   --background-layer: 0;
   --middleground-layer: 1;
   --foreground-layer: 2;
+  --cover-layer: 3;
+  --popup-layer: 4;
 }

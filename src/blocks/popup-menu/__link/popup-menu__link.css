@@ -1,0 +1,16 @@
+.popup-menu__link {
+  text-decoration: none;
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: 16px;
+  line-height: 19.84px;
+  color: var(--main-color, #fff);
+}
+
+.popup-menu__link:hover, .popup-menu__link:focus {
+  outline: none;
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  line-height: 18.59px;
+  color: var(--accent-color, #e9862a);
+}

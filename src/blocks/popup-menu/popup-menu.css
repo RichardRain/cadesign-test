@@ -1,0 +1,19 @@
+@import url('./__close-button/popup-menu__close-button.css');
+@import url('./__close-icon/popup-menu__close-icon.css');
+@import url('./__links/popup-menu__links.css');
+@import url('./__link/popup-menu__link.css');
+@import url('./__social-links/popup-menu__social-links.css');
+@import url('./__social-item/popup-menu__social-item.css');
+@import url('./__social-link/popup-menu__social-link.css');
+@import url('./__social-icon/popup-menu__social-icon.css');
+
+.popup-menu {
+  display: none;
+  position: fixed;
+  z-index: var(--popup-layer, 4);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 68px 40px 52px;
+  background-color: var(--popup-menu-color, #242627);
+}

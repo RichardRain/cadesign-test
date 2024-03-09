@@ -1,0 +1,12 @@
+.popup-menu__social-link {
+  block-size: 100%;
+  inline-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.popup-menu__social-link:hover, .popup-menu__social-link:focus {
+  outline: 1px solid var(--main-color, #fff);
+}

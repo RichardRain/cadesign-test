@@ -1,0 +1,13 @@
+.popup-menu__close-button {
+  padding: 0;
+  position: absolute;
+  top: 26px;
+  right: calc(40px - 26px);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-menu__close-button:focus-visible {
+  outline: none;
+}

@@ -9,4 +9,5 @@
   color: var(--secondary-color, #4f4f4f);
   background-color: var(--main-color, #fff);
   font-size: 13px;
+  position: relative;
 }

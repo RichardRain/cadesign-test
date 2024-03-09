@@ -1,0 +1,9 @@
+.popup-menu__close-icon {
+  fill: var(--main-color, #fff);
+  stroke: var(--main-color, #fff);
+}
+
+.popup-menu__close-button:hover .popup-menu__close-icon, .popup-menu__close-button:focus .popup-menu__close-icon {
+  fill: var(--accent-color, #e9862a);
+  stroke: var(--accent-color, #e9862a);
+}
