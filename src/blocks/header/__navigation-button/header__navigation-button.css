@@ -1,4 +1,5 @@
 .header__navigation-button {
+  position: relative;
   color: var(--header-button-color, #187cd3);
   font-family: var(--secondary-font), Inter, Arial, Helvetica, sans-serif;
   font-weight: var(--secondary-weight, 500);

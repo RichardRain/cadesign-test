@@ -1,0 +1,7 @@
+.header__social-icon {
+  fill: var(--accent-color, #e9862a);
+}
+
+.header__social-link:hover .header__social-icon {
+  fill: var(--header-social-icon-color, #003264);
+}

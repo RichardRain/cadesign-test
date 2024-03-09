@@ -1,0 +1,8 @@
+.header__social-list {
+  display: grid;
+  grid-template-columns: repeat(2, 68px);
+  grid-template-rows: repeat(2, 50px);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

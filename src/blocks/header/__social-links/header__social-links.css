@@ -1,0 +1,10 @@
+.header__social-links {
+  display: none;
+  position: absolute;
+  z-index: var(--foreground-layer, 2);
+  top: calc(100% + 16px);
+  left: 0;
+  padding: 19px;
+  background-color: var(--main-color, #fff);
+  box-shadow: 0px 17px 46px 0px rgba(0, 0, 0, 0.08);
+}

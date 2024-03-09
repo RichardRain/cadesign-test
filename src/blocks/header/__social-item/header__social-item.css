@@ -1,0 +1,5 @@
+.header__social-item {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  border: 1px solid var(--header-social-border-color, #e0e0e0);
+}

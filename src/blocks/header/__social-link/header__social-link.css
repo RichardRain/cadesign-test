@@ -1,0 +1,7 @@
+.header__social-link {
+  display: flex;
+  min-block-size: 50px;
+  min-inline-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
