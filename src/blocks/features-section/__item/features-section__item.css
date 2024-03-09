@@ -1,0 +1,9 @@
+.features-section__item {
+  display: none;
+}
+
+@media (min-width: 1680px) {
+  .features-section__item {
+    display: block;
+  }
+}

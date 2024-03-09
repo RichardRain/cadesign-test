@@ -1,0 +1,8 @@
+.features-section__title {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 20px;
+  line-height: 24.8px;
+  text-align: inherit;
+  color: var(--features-card-title-color, #242627);
+}

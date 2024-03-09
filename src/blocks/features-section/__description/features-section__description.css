@@ -1,0 +1,14 @@
+.features-section__description {
+  max-inline-size: 297px;
+  display: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: inherit;
+  color: var(--features-card-description-color, #646464);
+}
+
+.features-section__card:hover .features-section__description {
+  display: block;
+}

@@ -1,19 +1,33 @@
+@import url('./__list/features-section__list.css');
+@import url('./__item/features-section__item.css');
+@import url('./__item/features-section__item_visible.css');
+@import url('./__description/features-section__description.css');
+@import url('./__description/features-section__description_visible.css');
+@import url('./__card/features-section__card.css');
+@import url('./__title/features-section__title.css');
+@import url('./__icon/features-section__icon.css');
+@import url('./__icon/features-section__icon_stroke.css');
+@import url('./__control/features-section__control.css');
+@import url('./__control-button/features-section__control-button.css');
+@import url('./__control-button/features-section__control-button_active.css');
+@import url('./__control-element/features-section__control-element.css');
+@import url('./__control-icon/features-section__control-icon.css');
+
 .features-section {
+  --card-height: clamp(21.5625rem, 19.8783rem + 3.5088vw, 23.5625rem);
+  --card-width: clamp(21.5625rem, 19.2325rem + 4.8542vw, 24.329375rem);
   display: none;
 }
 
 @media (min-width: 768px) {
   .features-section {
-    display: block;
-    min-block-size: 528px;
-    padding: 62px 40px 121px;
-  }
-}
-
-@media (min-width: 1680px) {
-  .features-section {
-    display: block;
-    min-block-size: 899px;
-    padding: 76px 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: clamp(3.875rem, 3.1382rem + 1.5351vw, 4.75rem);
+    padding-inline: clamp(2.5rem, -8.2368rem + 22.3684vw, 15.25rem);
+    padding-block-end: clamp(3.8125rem, 3.3388rem + 0.9868vw, 4.375rem);
   }
 }

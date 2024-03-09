@@ -1,0 +1,3 @@
+.features-section__control-button_active > .features-section__control-icon{
+  fill: var(--accent-color, #e9862a);
+}

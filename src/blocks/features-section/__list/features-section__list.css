@@ -1,0 +1,16 @@
+.features-section__list {
+  display: grid;
+  grid-template-columns: repeat(2, var(--card-width, 1fr));
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 1680px) {
+  .features-section__list {
+    grid-template-columns: repeat(3, var(--card-width, 1fr));
+    grid-template-rows: repeat(2, var(--card-height, 1fr));
+    justify-items: center;
+    align-items: center;
+  }
+}

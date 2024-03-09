@@ -1,0 +1,10 @@
+.features-section__icon_stroke {
+    fill: none;
+    margin-block-end: 20px;
+    stroke: var(--features-card-icon-color, #4f4f4f);
+    stroke-width: 3px;
+}
+
+.features-section__card:hover .features-section__icon_stroke {
+  stroke: var(--accent-color, #e9862a);
+}
