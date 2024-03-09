@@ -1,19 +1,22 @@
 .hero-section__background-element {
-  --element-size: 1156px;
+  --shiftX: -25%;
+  --scaleX: 65%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: var(--background-layer, 0);
-  inline-size: var(--element-size);
-  block-size: var(--element-size);
-  transform: translate(-65%, -35%) rotate(45deg);
-  background-color: var(--hero-background-color, #003264);
+  transform: translateX(var(--shiftX)) scaleX(var(--scaleX));
 }
 
 @media (min-width: 768px) {
   .hero-section__background-element {
-    --shiftX: calc(-1 * clamp(18.0625rem, 71.2993rem + -50.7018vw, 46.9625rem)); /* 751.4 - 289 */
-    --shiftY: calc(-1 * clamp(21.675rem, 28.3296rem + -6.3377vw, 25.2875rem)); /* 404.6 - 346.8; */
-    transform: translate(var(--shiftX), var(--shiftY)) rotate(45deg);
+    --shiftX: clamp(-17.25rem, -31.7763rem + 30.2632vw, 0rem);
+  }
+}
+
+@media (min-width: 1024px) { /* Для более плавного изменения формы фигуры */
+  .hero-section__background-element {
+    --shiftX: clamp(-36.557875rem, -67.3435rem + 64.1366vw, 0rem);
+    --scaleX: 100%;
   }
 }
