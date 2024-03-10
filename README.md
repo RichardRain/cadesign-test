@@ -1,6 +1,6 @@
 # Тестовое задание для CADesign
 ## Ссылка на демо
-
+https://richardrain.github.io/cadesign-test/
 
 ## Реализованный функционал
 * Адаптивный дизайн
