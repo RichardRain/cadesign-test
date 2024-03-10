@@ -1,0 +1,18 @@
+.form__submit-button {
+  min-block-size: 56px;
+  min-inline-size: 100%;
+  background-color: var(--accent-color, #e9862a);
+  border: none;
+  color: var(--main-color, #fff);
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  font-size: 14px;
+  line-height: 16.27px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .form__submit-button {
+    min-inline-size: clamp(12.68125rem, 12.3076rem + 0.7785vw, 13.125rem);
+  }
+}

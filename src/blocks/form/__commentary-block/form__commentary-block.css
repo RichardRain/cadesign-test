@@ -1,0 +1,15 @@
+.form__commentary-block {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .form__commentary-block {
+    display: block;
+    min-block-size: 153px;
+  }
+
+  .form__commentary-block > .form__input {
+    min-block-size: 153px;
+    padding: 28px 25px;
+  }
+}

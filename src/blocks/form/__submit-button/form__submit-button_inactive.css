@@ -1,0 +1,5 @@
+.form__submit-button_inactive {
+  background-color: var(--inactive-button-color, #c3c8c8);
+  cursor: default;
+  pointer-events: none;
+}

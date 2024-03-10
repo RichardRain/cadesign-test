@@ -1,0 +1,4 @@
+.form__checkbox-link {
+  text-decoration: none;
+  color: var(--input-link-color, #187cd3);
+}

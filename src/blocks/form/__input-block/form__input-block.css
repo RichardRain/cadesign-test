@@ -1,0 +1,12 @@
+.form__input-block {
+  min-block-size: clamp(3.125rem, 2.2321rem + 4.4643vw, 4.375rem);
+  min-inline-size: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .form__input-block {
+    display: flex;
+    justify-content: center;
+  }
+}

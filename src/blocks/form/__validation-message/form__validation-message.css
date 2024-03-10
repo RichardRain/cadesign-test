@@ -1,0 +1,11 @@
+.form__validation-message {
+  display: none;
+  position: absolute;
+  top: calc(100% + clamp(0.0625rem, -0.1161rem + 0.8929vw, 0.3125rem));
+  left: clamp(0.25rem, -0.8214rem + 5.3571vw, 1.75rem);;
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-size: clamp(0.5rem, 0.3661rem + 0.6696vw, 0.6875rem);
+  font-weight: var(--main-weight, 400);
+  line-height: clamp(0.62rem, 0.4539rem + 0.8304vw, 0.8525rem);
+  color: var(--invalid-text-color, #be1a1a);
+}

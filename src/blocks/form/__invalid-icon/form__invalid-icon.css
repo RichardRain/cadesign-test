@@ -1,0 +1,3 @@
+.form__invalid-icon {
+  stroke: var(--invalid-icon-color, #242627);
+}

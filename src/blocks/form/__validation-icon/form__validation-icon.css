@@ -1,0 +1,8 @@
+.form__validation-icon {
+  display: none;
+  position: absolute;
+  top: clamp(1.1875rem, 0.7411rem + 2.2321vw, 1.8125rem);
+  right: clamp(0.9375rem, 0.6696rem + 1.3393vw, 1.3125rem);
+  min-inline-size: 12px;
+  min-block-size: 12px;
+}

@@ -8,4 +8,5 @@
   line-height: clamp(1.016875rem, 0.9133rem + 0.5179vw, 1.161875rem);
   background-color: var(--accent-color, #e9862a);
   border: none;
+  cursor: pointer;
 }

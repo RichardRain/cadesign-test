@@ -1,0 +1,8 @@
+.popup-success__text {
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  color: var(--popup-text-color, #242627);
+  font-size: clamp(0.75rem, 0.4821rem + 1.3393vw, 1.125rem);
+  line-height: clamp(0.93rem, 0.5979rem + 1.6607vw, 1.395rem);
+  text-align: center;
+}

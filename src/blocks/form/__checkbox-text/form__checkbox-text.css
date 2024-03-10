@@ -1,0 +1,7 @@
+.form__checkbox-text {
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(0.6875rem, 0.5982rem + 0.4464vw, 0.8125rem);
+  line-height: clamp(0.851875rem, 0.7407rem + 0.5558vw, 1.0075rem);
+  color: var(--input-text-color, #242627);
+}

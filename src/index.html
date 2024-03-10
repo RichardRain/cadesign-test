@@ -5,244 +5,246 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CADesign</title>
 </head>
-<body class="page">
-  <header class="header">
-    <a class="header__logo" href="#">
-      <svg viewBox="0 0 115 25" width="115" height="25">
-        <use href="#logo_colored"></use>
-      </svg>
-    </a>
-    <button class="header__menu-button header__menu-button_visible" type="button">
-      <svg viewBox="0 0 28 18" width="28" height="18">
-        <use href="#ui_menu"></use>
-      </svg>
-    </button>
-    <nav class="header__navigation-menu">
-      <ul class="header__navigation-list">
-        <li class="header__navigation-item">
-          <a href="#" class="header__navigation-link">О нас</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#" class="header__navigation-link">Наши ценности</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#" class="header__navigation-link">Вакансии</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#" class="header__navigation-link">Начало карьеры</a>
-        </li>
-        <li class="header__navigation-item">
-          <a href="#" class="header__navigation-link">Контакты</a>
-        </li>
-        <li class="header__navigation-item">
-          <button class="header__navigation-button">
-            Социальные сети
-            <svg viewBox="0 0 5 5" width="5" height="5">
-              <use href="#ui_dropdown"></use>
-            </svg>
-            <div class="header__social-links">
-              <ul class="header__social-list">
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link">
-                    <svg viewBox="0 0 21 12" width="21" height="12" class="header__social-icon">
-                      <use href="#socials_vk"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link">
-                    <svg viewBox="0 0 11 18" width="11" height="18" class="header__social-icon">
-                      <use href="#socials_ok"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link">
-                    <svg viewBox="0 0 9 17" width="9" height="17" class="header__social-icon">
-                      <use href="#socials_facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link">
-                    <svg viewBox="0 0 16 17" width="16" height="17" class="header__social-icon">
-                      <use href="#socials_instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </button>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__line"></div>
-  </header>
-  <main class="main">
-    <section class="hero-section">
-      <div class="hero-section__content">
-        <h1 class="hero-section__title">Энергия твоего роста! – заряжаем твою карьеру</h1>
-        <button class="hero-section__button" type="button">Cтать частью команды</button>
-      </div>
-      <div class="hero-section__image-block">
-        <picture>
-          <source srcset="<%=require('./images/people.webp')%>" type="image/webp"/>
-          <source srcset="<%=require('./images/people.avif')%>" type="image/avif"/>
-          <img src="<%=require('./images/people.png')%>" alt="" class="hero-section__image" loading="lazy">
-        </picture>
-      </div>
-      <div class="hero-section__background-element">
-        <svg viewBox="0 0 1104 448" width="1104" height="448">
-          <use href="#icons_cover-arrow"></use>
+<body>
+  <div class="page page_noscroll">
+    <header class="header">
+      <a class="header__logo" href="#">
+        <svg viewBox="0 0 115 25" width="115" height="25">
+          <use href="#logo_colored"></use>
         </svg>
-      </div>
-    </section>
-    <section class="features-section">
-      <ul class="features-section__list">
-        <li class="features-section__item">
-          <article class="features-section__card">
-            <svg viewBox="0 0 66 62" width="66" height="62" class="features-section__icon">
-              <use href="#icons_goal"></use>
-            </svg>
-            <h2 class="features-section__title">Развитие</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-        <li class="features-section__item">
-          <article class="features-section__card">
-            <svg viewBox="0 0 74 74" width="74" height="74" class="features-section__icon">
-              <use href="#icons_hat"></use>
-            </svg>
-            <h2 class="features-section__title">Обучение</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-        <li class="features-section__item">
-          <article class="features-section__card">
-            <svg viewBox="0 0 68 67" width="68" height="67" class="features-section__icon">
-              <use href="#icons_blocks"></use>
-            </svg>
-            <h2 class="features-section__title">Ответственность</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-        <li class="features-section__item features-section__item_visible">
-          <article class="features-section__card">
-            <svg viewBox="0 0 95 59" width="95" height="59" class="features-section__icon_stroke">
-              <use href="#icons_profit"></use>
-            </svg>
-            <h2 class="features-section__title">Динамика</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-        <li class="features-section__item features-section__item_visible">
-          <article class="features-section__card">
-            <svg viewBox="0 0 72 72" width="72" height="72" class="features-section__icon">
-              <use href="#icons_hand"></use>
-            </svg>
-            <h2 class="features-section__title">Комфорт</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-        <li class="features-section__item">
-          <article class="features-section__card">
-            <svg viewBox="0 0 54 69" width="54" height="69" class="features-section__icon">
-              <use href="#icons_shield"></use>
-            </svg>
-            <h2 class="features-section__title">Надежность</h2>
-            <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
-          </article>
-        </li>
-      </ul>
-      <ul class="features-section__control">
-        <li class="features-section__control-element">
-          <button class="features-section__control-button">
-            <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="features-section__control-element">
-          <button class="features-section__control-button features-section__control-button_active">
-            <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="features-section__control-element">
-          <button class="features-section__control-button">
-            <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </section>
-    <section class="team-section">
-      <ul class="team-section__list">
-        <li class="team-section__list-item">
-          <article class="team-section__card">
-            <div class="team-section__image-block">
-              <picture>
-                <source srcset="<%=require('./images/ceo.webp')%>" type="image/webp"/>
-                <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
-                <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
-              </picture>
-              <button class="team-section__previous-button" type="button">
-                <svg viewBox="0 0 6 10" width="6" height="10">
-                  <use href="#ui_previous"></use>
-                </svg>
-              </button>
-              <button class="team-section__next-button" type="button">
-                <svg viewBox="0 0 6 10" width="6" height="10">
-                  <use href="#ui_next"></use>
-                </svg>
-              </button>
-            </div>
-            <div class="team-section__content">
-              <h2 class="team-section__card-title">Евдокимова Майя</h2>
-              <p class="team-section__card-role">Генеральный директор</p>
-              <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
-            </div>
-          </article>
-        </li>
-      </ul>
-      <ul class="team-section__control">
-        <li class="team-section__control-element">
-          <button class="team-section__control-button">
-            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="team-section__control-element">
-          <button class="team-section__control-button team-section__control-button_active">
-            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="team-section__control-element">
-          <button class="team-section__control-button">
-            <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
-              <use href="#ui_dot"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    <address class="footer__address">© 1998–2019,«Компания», 53002, Иваново, Лежневская 34 корпус 1</address>
-    <a href="#" class="footer__link">Политика обработки персональных данных</a>
-    <a class="footer__logo" href="#">
-      <svg class="footer__logo-icon" viewBox="0 0 68 16.15" width="68" height="16.15">
-        <use href="#logo_not-colored"></use>
-      </svg>
-    </a>
-  </footer>
+      </a>
+      <button class="header__menu-button header__menu-button_visible" type="button">
+        <svg viewBox="0 0 28 18" width="28" height="18">
+          <use href="#ui_menu"></use>
+        </svg>
+      </button>
+      <nav class="header__navigation-menu">
+        <ul class="header__navigation-list">
+          <li class="header__navigation-item">
+            <a href="#" class="header__navigation-link">О нас</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#" class="header__navigation-link">Наши ценности</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#" class="header__navigation-link">Вакансии</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#" class="header__navigation-link">Начало карьеры</a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="#" class="header__navigation-link">Контакты</a>
+          </li>
+          <li class="header__navigation-item">
+            <button class="header__navigation-button">
+              Социальные сети
+              <svg viewBox="0 0 5 5" width="5" height="5">
+                <use href="#ui_dropdown"></use>
+              </svg>
+              <div class="header__social-links">
+                <ul class="header__social-list">
+                  <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                      <svg viewBox="0 0 21 12" width="21" height="12" class="header__social-icon">
+                        <use href="#socials_vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                      <svg viewBox="0 0 11 18" width="11" height="18" class="header__social-icon">
+                        <use href="#socials_ok"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                      <svg viewBox="0 0 9 17" width="9" height="17" class="header__social-icon">
+                        <use href="#socials_facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                      <svg viewBox="0 0 16 17" width="16" height="17" class="header__social-icon">
+                        <use href="#socials_instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__line"></div>
+    </header>
+    <main class="main">
+      <section class="hero-section">
+        <div class="hero-section__content">
+          <h1 class="hero-section__title">Энергия твоего роста! – заряжаем твою карьеру</h1>
+          <button class="hero-section__button" type="button">Cтать частью команды</button>
+        </div>
+        <div class="hero-section__image-block">
+          <picture>
+            <source srcset="<%=require('./images/people.webp')%>" type="image/webp"/>
+            <source srcset="<%=require('./images/people.avif')%>" type="image/avif"/>
+            <img src="<%=require('./images/people.png')%>" alt="" class="hero-section__image" loading="lazy">
+          </picture>
+        </div>
+        <div class="hero-section__background-element">
+          <svg viewBox="0 0 1104 448" width="1104" height="448">
+            <use href="#icons_cover-arrow"></use>
+          </svg>
+        </div>
+      </section>
+      <section class="features-section">
+        <ul class="features-section__list">
+          <li class="features-section__item">
+            <article class="features-section__card">
+              <svg viewBox="0 0 66 62" width="66" height="62" class="features-section__icon">
+                <use href="#icons_goal"></use>
+              </svg>
+              <h2 class="features-section__title">Развитие</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+          <li class="features-section__item">
+            <article class="features-section__card">
+              <svg viewBox="0 0 74 74" width="74" height="74" class="features-section__icon">
+                <use href="#icons_hat"></use>
+              </svg>
+              <h2 class="features-section__title">Обучение</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+          <li class="features-section__item">
+            <article class="features-section__card">
+              <svg viewBox="0 0 68 67" width="68" height="67" class="features-section__icon">
+                <use href="#icons_blocks"></use>
+              </svg>
+              <h2 class="features-section__title">Ответственность</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+          <li class="features-section__item features-section__item_visible">
+            <article class="features-section__card">
+              <svg viewBox="0 0 95 59" width="95" height="59" class="features-section__icon_stroke">
+                <use href="#icons_profit"></use>
+              </svg>
+              <h2 class="features-section__title">Динамика</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+          <li class="features-section__item features-section__item_visible">
+            <article class="features-section__card">
+              <svg viewBox="0 0 72 72" width="72" height="72" class="features-section__icon">
+                <use href="#icons_hand"></use>
+              </svg>
+              <h2 class="features-section__title">Комфорт</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+          <li class="features-section__item">
+            <article class="features-section__card">
+              <svg viewBox="0 0 54 69" width="54" height="69" class="features-section__icon">
+                <use href="#icons_shield"></use>
+              </svg>
+              <h2 class="features-section__title">Надежность</h2>
+              <p class="features-section__description">Общего центра обслуживания. Современные технологии, проекты, рабочие группы</p>
+            </article>
+          </li>
+        </ul>
+        <ul class="features-section__control">
+          <li class="features-section__control-element">
+            <button class="features-section__control-button">
+              <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="features-section__control-element">
+            <button class="features-section__control-button features-section__control-button_active">
+              <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="features-section__control-element">
+            <button class="features-section__control-button">
+              <svg viewBox="0 0 10 10" width="10" height="10" class="features-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="team-section">
+        <ul class="team-section__list">
+          <li class="team-section__list-item">
+            <article class="team-section__card">
+              <div class="team-section__image-block">
+                <picture>
+                  <source srcset="<%=require('./images/ceo.webp')%>" type="image/webp"/>
+                  <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
+                  <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
+                </picture>
+                <button class="team-section__previous-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_previous"></use>
+                  </svg>
+                </button>
+                <button class="team-section__next-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_next"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="team-section__content">
+                <h2 class="team-section__card-title">Евдокимова Майя</h2>
+                <p class="team-section__card-role">Генеральный директор</p>
+                <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul class="team-section__control">
+          <li class="team-section__control-element">
+            <button class="team-section__control-button">
+              <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="team-section__control-element">
+            <button class="team-section__control-button team-section__control-button_active">
+              <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="team-section__control-element">
+            <button class="team-section__control-button">
+              <svg viewBox="0 0 6 6" width="6" height="6" class="team-section__control-icon">
+                <use href="#ui_dot"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <address class="footer__address">© 1998–2019,«Компания», 53002, Иваново, Лежневская 34 корпус 1</address>
+      <a href="#" class="footer__link">Политика обработки персональных данных</a>
+      <a class="footer__logo" href="#">
+        <svg class="footer__logo-icon" viewBox="0 0 68 16.15" width="68" height="16.15">
+          <use href="#logo_not-colored"></use>
+        </svg>
+      </a>
+    </footer>
+  </div>
   <div class="cover"></div>
-  <div class="popup-menu popup-menu_visible">
+  <div class="popup-menu">
     <button class="popup-menu__close-button">
       <svg class="popup-menu__close-icon" viewBox="0 0 17.83 17.83" width="17.838" height="17.83">
         <use href="#ui_close"></use>
@@ -295,6 +297,130 @@
         </a>
       </li>
     </ul>
+  </div>
+  <div class="popup popup-form">
+    <button class="popup__close-button">
+      <svg class="popup__close-icon" viewBox="0 0 6.17 6.17" width="6.17" height="6.17">
+        <use href="#ui_close"></use>
+      </svg>
+    </button>
+    <h2 class="popup__title popup-form__title">Отклик на вакансию</h2>
+    <form name="vacancy-response" class="form popup-form__form">
+      <div class="form__input-block">
+        <input type="text" class="form__input" name="vacancy" placeholder="Желаемая вакансия" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+            <use href="#ui_close"></use>
+        </svg>
+        <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_valid"></use>
+      </svg>
+        <span class="form__validation-message"></span>
+      </div>
+      <div class="form__input-block">
+        <input type="text" class="form__input" name="name" placeholder="Фамилия, имя и отчество" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_close"></use>
+        </svg>
+        <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_valid"></use>
+        </svg>
+        <span class="form__validation-message"></span>
+      </div>
+      <div class="form__input-row">
+        <div class="form__input-block">
+          <input type="tel" class="form__input" name="tel" placeholder="Мобильный телефон" required>
+          <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+            <use href="#ui_close"></use>
+          </svg>
+          <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+            <use href="#ui_valid"></use>
+          </svg>
+          <span class="form__validation-message"></span>
+        </div>
+        <div class="form__input-block">
+          <input type="email" class="form__input" name="email" placeholder="E-mail" required>
+          <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+            <use href="#ui_close"></use>
+          </svg>
+          <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+            <use href="#ui_valid"></use>
+          </svg>
+          <span class="form__validation-message"></span>
+        </div>
+      </div>
+      <div class="form__input-block">
+        <input type="text" class="form__input" name="education" placeholder="Образование" required minlength="2" maxlength="60" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_close"></use>
+        </svg>
+        <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_valid"></use>
+        </svg>
+        <span class="form__validation-message"></span>
+      </div>
+      <div class="form__input-block">
+        <input type="text" class="form__input" name="address" placeholder="Адрес места жительства" required minlength="2" maxlength="100" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_close"></use>
+        </svg>
+        <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_valid"></use>
+        </svg>
+        <span class="form__validation-message"></span>
+      </div>
+      <div class="form__input-row">
+        <div class="form__input-block">
+          <input type="date" class="form__input form__input-birthdate" name="birthdate" placeholder="Дата рождения">
+          <span class="form__validation-message"></span>
+        </div>
+        <div class="form__input-block">
+          <div class="form__file-block">
+            <input type="file" name="resume" id="resume"  hidden>
+            <label for="resume" class="form__input-file">Загрузить резюме</label>
+            <button class="form__input-clear" type="button">
+              <svg class="form__bin-icon" viewBox="0 0 10 10.83" width="10" height="10.83">
+                <use href="#ui_bin"></use>
+              </svg>
+            </button>
+          </div>
+          <span class="form__validation-message"></span>
+        </div>
+      </div>
+      <div class="form__input-block form__commentary-block">
+        <textarea class="form__input" name="commentary" placeholder="Комментарий" minlength="2" maxlength="256" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы."></textarea>
+        <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_close"></use>
+        </svg>
+        <svg class="form__validation-icon form__valid-icon" viewBox="0 0 12 12" width="12" height="12">
+          <use href="#ui_valid"></use>
+        </svg>
+        <span class="form__validation-message"></span>
+      </div>
+      <div class="form__submit-block">
+        <div class="form__input-block">
+          <input type="checkbox" class="form__checkbox" name="agreement" id="agreement" required hidden>
+          <label for="agreement" class="form__agreement-block">
+            <div class="form__checkbox-item">
+              <svg class="form__checkbox-icon" viewBox="0 0 7.5 5.16" width="7.5" height="5.16">
+                <use href="#ui_check"></use>
+              </svg>
+            </div>
+            <span class="form__checkbox-text">Я принимаю условия <a href="#" class="form__checkbox-link">передачи информации</a></span>
+          </label>
+          <span class="form__validation-message"></span>
+        </div>
+        <button type="submit" class="form__submit-button">Отправить</button>
+      </div>
+    </form>
+  </div>
+  <div class="popup popup-success">
+    <button class="popup__close-button">
+      <svg class="popup__close-icon" viewBox="0 0 6.17 6.17" width="6.17" height="6.17">
+        <use href="#ui_close"></use>
+      </svg>
+    </button>
+    <h2 class="popup-success__title">Сообщение успешно отправлено</h2>
+    <p class="popup-success__text">Наш менеджер свяжется с вами в ближайшее время</p>
   </div>
 </body>
 </html>

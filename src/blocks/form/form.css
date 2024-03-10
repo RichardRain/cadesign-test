@@ -1,0 +1,41 @@
+@import url('./__input-block/form__input-block.css');
+@import url('./__input-row/form__input-row.css');
+@import url('./__input/form__input.css');
+@import url('./__input-birthdate/form__input-birthdate.css');
+@import url('./__input-file/form__input-file.css');
+@import url('./__file-block/form__file-block.css');
+@import url('./__input-clear/form__input-clear.css');
+@import url('./__input-clear/form__input-clear_visible.css');
+@import url('./__submit-block/form__submit-block.css');
+@import url('./__agreement-block/form__agreement-block.css');
+@import url('./__commentary-block/form__commentary-block.css');
+@import url('./__checkbox-text/form__checkbox-text.css');
+@import url('./__checkbox-link/form__checkbox-link.css');
+@import url('./__checkbox-item/form__checkbox-item.css');
+@import url('./__checkbox-item/form__checkbox-item_checked.css');
+@import url('./__checkbox-icon/form__checkbox-icon.css');
+@import url('./__checkbox-icon/form__checkbox-icon_visible.css');
+@import url('./__input-invalid/form__input-invalid.css');
+@import url('./__validation-icon/form__validation-icon.css');
+@import url('./__validation-icon/form__validation-icon_visible.css');
+@import url('./__invalid-icon/form__invalid-icon.css');
+@import url('./__valid-icon/form_valid-icon.css');
+@import url('./__validation-message/form__validation-message.css');
+@import url('./__validation-message/form__validation-message_visible.css');
+@import url('./__submit-button/form__submit-button.css');
+@import url('./__submit-button/form__submit-button_inactive.css');
+
+.form {
+  min-inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: clamp(1.25rem, 0.7143rem + 2.6786vw, 2rem);
+}
+
+@media (min-width: 1680px) {
+  .form {
+    min-inline-size: 712px;
+  }
+}

@@ -1,0 +1,3 @@
+.form__input-invalid {
+  border: 1px solid var(--input-invalid-color, #bf1e2e);
+}

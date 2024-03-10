@@ -2,6 +2,7 @@
   --main-color: #fff;
   --secondary-color: #4f4f4f;
   --accent-color: #e9862a;
+  --accent-hover-color: #e77e1e;
   --header-line-color: #f2f2f2;
   --header-link-color: #242627;
   --header-button-color: #187cd3;
@@ -21,6 +22,20 @@
   --footer-logo-color: #c3c8c8;
   --cover-color: #242627;
   --popup-menu-color: #242627;
+  --popup-title-color: #000;
+  --popup-text-color: #242627;
+  --input-background-color: #f2f2f2;
+  --input-hover-border-color: #e0e0e0;
+  --input-text-color: #242627;
+  --input-link-color: #187cd3;
+  --placeholder-color: #828282;
+  --invalid-icon-color: #242627;
+  --valid-icon-color: #27ae60;
+  --invalid-text-color: #be1a1a;
+  --input-invalid-color: #bf1e2e;
+  --input-file-color: #187cd3;
+  --inactive-button-color: #c3c8c8;
+  --submit-block-border-color: #f2f2f2;
   --main-font: Helios;
   --accent-font: HeliosC;
   --secondary-font: Gilroy;

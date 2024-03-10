@@ -1,0 +1,4 @@
+.form__checkbox-item_checked {
+  background-color: var(--accent-color, #e9862a);
+  border: none;
+}

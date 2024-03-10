@@ -1,0 +1,13 @@
+.popup-form {
+  padding-block-start: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  padding-inline: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  padding-block-end: clamp(2.625rem, 1.0625rem + 7.8125vw, 4.8125rem);
+}
+
+@media (min-width: 768px) {
+  .popup-form {
+    padding-block-start: clamp(2.5rem, -0.8684rem + 7.0175vw, 6.5rem);
+    padding-inline: clamp(2.5rem, -4.8684rem + 15.3509vw, 11.25rem);
+    padding-block-end: clamp(4.0625rem, 5.4441rem + -1.3158vw, 4.8125rem);
+  }
+}

@@ -1,0 +1,14 @@
+.popup__close-icon {
+  fill: var(--main-color, #fff);
+  stroke: var(--main-color, #fff);
+  block-size: clamp(0.385625rem, 0.1713rem + 1.0714vw, 0.685625rem);
+  inline-size: clamp(0.385625rem, 0.1713rem + 1.0714vw, 0.685625rem);
+}
+
+@media (min-width: 768px) {
+  .popup__close-icon {
+    block-size: clamp(0.685625rem, 0.6314rem + 0.1129vw, 0.75rem);
+    inline-size: clamp(0.685625rem, 0.6314rem + 0.1129vw, 0.75rem);
+  }
+}
+

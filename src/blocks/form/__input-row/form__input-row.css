@@ -1,0 +1,29 @@
+.form__input-row {
+  min-inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: clamp(1.25rem, 0.7143rem + 2.6786vw, 2rem);
+}
+
+@media (min-width: 768px) {
+  .form__input-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5px;
+  }
+  
+  .form__input-row .form__input-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-inline-size: clamp(21.25rem, 20.5658rem + 1.4254vw, 22.0625rem);
+  }
+
+  .form__input-row .form__file-block {
+    align-items: flex-start;
+  }
+}

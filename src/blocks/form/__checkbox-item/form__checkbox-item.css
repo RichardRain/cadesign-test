@@ -1,0 +1,10 @@
+.form__checkbox-item {
+  block-size: clamp(1.125rem, 0.8571rem + 1.3393vw, 1.5rem);
+  inline-size: clamp(1.125rem, 0.8571rem + 1.3393vw, 1.5rem);
+  background-color: transparent;
+  border: 1px solid var(--input-hover-border-color, #e0e0e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}

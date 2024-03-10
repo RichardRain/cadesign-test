@@ -1,0 +1,32 @@
+.popup__close-button {
+  align-self: flex-end;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: clamp(2.25rem, 1rem + 6.25vw, 4rem);
+  min-inline-size: clamp(2.25rem, 1rem + 6.25vw, 4rem);
+  background-color: var(--accent-color, #e9862a);
+  border: none;
+  cursor: pointer;
+}
+
+.popup__close-button:hover, .popup__close-button:focus-visible {
+  outline: none;
+  background-color: var(--accent-hover-color, #e77e1e);
+}
+
+@media (min-width: 768px) {
+  .popup__close-button {
+    min-block-size: clamp(4rem, 3.6842rem + 0.6579vw, 4.375rem);
+    min-inline-size: clamp(4rem, 3.6842rem + 0.6579vw, 4.375rem);
+  }
+}
+
+@media (min-width: 1680px) {
+  .popup__close-button {
+    position: absolute;
+    top: 0;
+    right: -70px;
+  }
+}

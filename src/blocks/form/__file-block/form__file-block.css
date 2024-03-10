@@ -1,0 +1,9 @@
+.form__file-block {
+  min-inline-size: 100%;
+  min-block-size: clamp(1.875rem, 1.25rem + 3.125vw, 2.75rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1.3125rem, 2.1696rem + -1.7857vw, 1.8125rem);
+  border-block-end: 1px solid var(--input-file-color, #187cd3);
+}

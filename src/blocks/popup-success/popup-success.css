@@ -1,0 +1,21 @@
+@import url('./__text/popup-success__text.css');
+@import url('./__title/popup-success__title.css');
+
+.popup-success {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.625rem, 0.8661rem + 3.7946vw, 2.6875rem);
+  padding-block-start: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  padding-inline: clamp(1.25rem, 0.3571rem + 4.4643vw, 2.5rem);
+  padding-block-end: clamp(3.875rem, 1.7768rem + 10.4911vw, 6.8125rem);
+}
+
+@media (min-width: 768px) {
+  .popup-success {
+    gap: clamp(2.6875rem, 2.5296rem + 0.3289vw, 2.875rem);
+    padding-block-start: clamp(2.5rem, -1.7105rem + 8.7719vw, 7.5rem);
+    padding-inline: clamp(2.5rem, -9.2368rem + 24.4518vw, 16.4375rem);
+    padding-block-end: clamp(6.8125rem, 6.6546rem + 0.3289vw, 7rem);
+  }
+}

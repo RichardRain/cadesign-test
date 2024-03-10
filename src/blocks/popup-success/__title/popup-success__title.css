@@ -1,0 +1,8 @@
+.popup-success__title {
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  color: var(--popup-title-color, #000);
+  font-size: clamp(0.9375rem, 0rem + 4.6875vw, 2.25rem);
+  line-height: clamp(1.089375rem, 0.0001rem + 5.4464vw, 2.614375rem);
+  text-align: center;
+}

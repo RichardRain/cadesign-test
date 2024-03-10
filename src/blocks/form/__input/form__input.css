@@ -1,0 +1,41 @@
+.form__input {
+  display: block;
+  min-block-size: clamp(3.125rem, 2.2321rem + 4.4643vw, 4.375rem);
+  min-inline-size: 100%;
+  background-color: var(--input-background-color, #f2f2f2);
+  border: none;
+  border-radius: 2px;
+  padding-inline-start: clamp(0.6875rem, -0.0295rem + 3.5848vw, 1.69125rem);
+  color: var(--input-text-color, #242627);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(0.75rem, 0.5714rem + 0.8929vw, 1rem);
+  line-height: clamp(0.93rem, 0.7086rem + 1.1071vw, 1.24rem);
+}
+
+.form__input::placeholder {
+  color: var(--placeholder-color, #828282);
+  font-family: var(--main-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--main-weight, 400);
+  font-size: clamp(0.75rem, 0.5714rem + 0.8929vw, 1rem);
+  line-height: clamp(0.93rem, 0.7086rem + 1.1071vw, 1.24rem);
+}
+
+.form__input:focus {
+  outline: none;
+  background-color: var(--main-color, #fff);
+  border: 1px solid var( --input-hover-border-color, #e0e0e0);
+}
+
+.form__input:focus::placeholder {
+  position: relative;
+  bottom: clamp(0.75rem, 0.5714rem + 0.8929vw, 1rem);
+  left: 0;
+  color: var(--placeholder-color, #828282);
+  font-size: clamp(0.5625rem, 0.3839rem + 0.8929vw, 0.8125rem);
+  line-height: clamp(0.6975rem, 0.4761rem + 1.1071vw, 1.0075rem);
+}
+
+.form__input:hover {
+  border: 1px solid var( --input-hover-border-color, #e0e0e0);
+}

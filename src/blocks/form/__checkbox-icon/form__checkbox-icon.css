@@ -1,0 +1,4 @@
+.form__checkbox-icon {
+  display: none;
+  stroke: var(--main-color, #fff);
+}

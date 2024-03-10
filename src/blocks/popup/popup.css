@@ -1,0 +1,23 @@
+@import url('./__close-button/popup__close-button.css');
+@import url('./__close-icon/popup__close-icon.css');
+@import url('./__title/popup__title.css');
+
+.popup {
+  display: none;
+  position: absolute;
+  z-index: var(--popup-layer, 4);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--main-color, #fff);
+  
+}
+
+@media (min-width: 1680px) {
+  .popup {
+    top: 170px;
+    left: 268px;
+    right: 268px;
+    box-shadow: 0px 28px 62px 0px rgba(0, 0, 0, 0.07);
+  }
+}

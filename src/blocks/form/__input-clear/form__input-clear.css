@@ -1,0 +1,10 @@
+.form__input-clear {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.form__input-clear:focus-visible {
+  outline: none;
+}

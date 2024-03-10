@@ -1,0 +1,5 @@
+.form__agreement-block {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.6875rem, 0.3589rem + 1.6429vw, 1.1475rem);
+}

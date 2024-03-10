@@ -1,0 +1,8 @@
+.popup__title {
+  font-family: var(--accent-font), Inter, Arial, Helvetica, sans-serif;
+  font-weight: var(--accent-weight, 700);
+  font-size: clamp(1.125rem, 0.5rem + 3.125vw, 2rem);
+  line-height: clamp(1.3075rem, 0.5816rem + 3.6295vw, 2.32375rem);
+  color: #000;
+  margin-block-end: calc(clamp(2.375rem, 1.7054rem + 3.3482vw, 3.3125rem) - 24px);
+}
