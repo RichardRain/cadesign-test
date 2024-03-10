@@ -12,9 +12,8 @@
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/cover_visible.css');
 @import url('../blocks/popup/popup.css');
-@import url('../blocks/popup/popup_visible.css');
 @import url('../blocks/popup-menu/popup-menu.css');
-@import url('../blocks/popup-menu/popup-menu_visible.css');
 @import url('../blocks/popup-form/popup-form.css');
 @import url('../blocks/form/form.css');
 @import url('../blocks/popup-success/popup-success.css');
+@import url('../blocks/popup/popup_visible.css');

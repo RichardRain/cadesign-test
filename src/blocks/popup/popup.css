@@ -10,6 +10,10 @@
   left: 0;
   right: 0;
   background-color: var(--main-color, #fff);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
   
 }
 

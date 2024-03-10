@@ -1,3 +1,8 @@
+.team-section__control-button_active {
+  pointer-events: none;
+  cursor: default;
+}
+
 .team-section__control-button_active > .team-section__control-icon{
   fill: var(--accent-color, #e9862a);
 }

@@ -1,0 +1,21 @@
+.team-section__button {
+  display: none;
+  position: absolute;
+  top: calc(50% - 47px);
+  block-size: 94px;
+  inline-size: 52px;
+  background-color: var(--main-color, #fff);
+  border: none;
+  cursor: pointer;
+}
+
+.team-section__button:hover, .team-section__button:focus {
+  outline: none;
+  border: 1px solid var(--card-button-border-color, #e0e0e0);
+}
+
+@media (min-width: 768px) {
+  .team-section__button {
+    display: block;
+  }
+}

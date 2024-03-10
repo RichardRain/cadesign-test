@@ -189,12 +189,38 @@
                   <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
                   <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
                 </picture>
-                <button class="team-section__previous-button" type="button">
+                <button class="team-section__button team-section__previous-button" type="button">
                   <svg viewBox="0 0 6 10" width="6" height="10">
                     <use href="#ui_previous"></use>
                   </svg>
                 </button>
-                <button class="team-section__next-button" type="button">
+                <button class="team-section__button team-section__next-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_next"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="team-section__content">
+                <h2 class="team-section__card-title">Евдокимова Майя</h2>
+                <p class="team-section__card-role">Генеральный директор (Карточка 1)</p>
+                <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+              </div>
+            </article>
+          </li>
+          <li class="team-section__list-item team-section__list-item_visible">
+            <article class="team-section__card">
+              <div class="team-section__image-block">
+                <picture>
+                  <source srcset="<%=require('./images/ceo.webp')%>" type="image/webp"/>
+                  <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
+                  <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
+                </picture>
+                <button class="team-section__button team-section__previous-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_previous"></use>
+                  </svg>
+                </button>
+                <button class="team-section__button team-section__next-button" type="button">
                   <svg viewBox="0 0 6 10" width="6" height="10">
                     <use href="#ui_next"></use>
                   </svg>
@@ -203,6 +229,32 @@
               <div class="team-section__content">
                 <h2 class="team-section__card-title">Евдокимова Майя</h2>
                 <p class="team-section__card-role">Генеральный директор</p>
+                <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
+              </div>
+            </article>
+          </li>
+          <li class="team-section__list-item">
+            <article class="team-section__card">
+              <div class="team-section__image-block">
+                <picture>
+                  <source srcset="<%=require('./images/ceo.webp')%>" type="image/webp"/>
+                  <source srcset="<%=require('./images/ceo.avif')%>" type="image/avif"/>
+                  <img src="<%=require('./images/ceo.png')%>" alt="Фото генерального директора, Евдокимовой Майи." class="team-section__card-image" loading="lazy">
+                </picture>
+                <button class="team-section__button team-section__previous-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_previous"></use>
+                  </svg>
+                </button>
+                <button class="team-section__button team-section__next-button" type="button">
+                  <svg viewBox="0 0 6 10" width="6" height="10">
+                    <use href="#ui_next"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="team-section__content">
+                <h2 class="team-section__card-title">Евдокимова Майя</h2>
+                <p class="team-section__card-role">Генеральный директор (Карточка 3)</p>
                 <p class="team-section__card-text">Цель нашей работы обеспечить высочайший сервис нашим клиентам. Дать возможность бизнесу сосредоточиться на своих ключевых задачах, передав функции управления персоналом, казначейства, финансового учёта и отчётности нам.</p>
               </div>
             </article>
@@ -307,7 +359,7 @@
     <h2 class="popup__title popup-form__title">Отклик на вакансию</h2>
     <form name="vacancy-response" class="form popup-form__form">
       <div class="form__input-block">
-        <input type="text" class="form__input" name="vacancy" placeholder="Желаемая вакансия" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <input type="text" class="form__input" name="vacancy" placeholder="Желаемая вакансия *" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
         <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
             <use href="#ui_close"></use>
         </svg>
@@ -317,7 +369,7 @@
         <span class="form__validation-message"></span>
       </div>
       <div class="form__input-block">
-        <input type="text" class="form__input" name="name" placeholder="Фамилия, имя и отчество" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <input type="text" class="form__input" name="name" placeholder="Фамилия, имя и отчество *" required minlength="2" maxlength="40" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
         <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
           <use href="#ui_close"></use>
         </svg>
@@ -328,7 +380,7 @@
       </div>
       <div class="form__input-row">
         <div class="form__input-block">
-          <input type="tel" class="form__input" name="tel" placeholder="Мобильный телефон" required>
+          <input type="tel" class="form__input" name="tel" placeholder="Мобильный телефон *" required>
           <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
             <use href="#ui_close"></use>
           </svg>
@@ -338,7 +390,7 @@
           <span class="form__validation-message"></span>
         </div>
         <div class="form__input-block">
-          <input type="email" class="form__input" name="email" placeholder="E-mail" required>
+          <input type="email" class="form__input" name="email" placeholder="E-mail *" required>
           <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
             <use href="#ui_close"></use>
           </svg>
@@ -349,7 +401,7 @@
         </div>
       </div>
       <div class="form__input-block">
-        <input type="text" class="form__input" name="education" placeholder="Образование" required minlength="2" maxlength="60" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <input type="text" class="form__input" name="education" placeholder="Образование *" required minlength="2" maxlength="60" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
         <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
           <use href="#ui_close"></use>
         </svg>
@@ -359,7 +411,7 @@
         <span class="form__validation-message"></span>
       </div>
       <div class="form__input-block">
-        <input type="text" class="form__input" name="address" placeholder="Адрес места жительства" required minlength="2" maxlength="100" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
+        <input type="text" class="form__input" name="address" placeholder="Адрес места жительства *" required minlength="2" maxlength="100" pattern="^[a-zA-Zа-яА-я0-9\-\s]+" data-error-message="Разрешены латинские и кириллические буквы, знаки дефиса и пробелы.">
         <svg class="form__validation-icon form__invalid-icon" viewBox="0 0 12 12" width="12" height="12">
           <use href="#ui_close"></use>
         </svg>
@@ -375,7 +427,7 @@
         </div>
         <div class="form__input-block">
           <div class="form__file-block">
-            <input type="file" name="resume" id="resume"  hidden>
+            <input type="file" name="resume" id="resume" class="form__file" hidden>
             <label for="resume" class="form__input-file">Загрузить резюме</label>
             <button class="form__input-clear" type="button">
               <svg class="form__bin-icon" viewBox="0 0 10 10.83" width="10" height="10.83">

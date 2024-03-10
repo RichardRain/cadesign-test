@@ -16,4 +16,8 @@
   right: 0;
   padding: 68px 40px 52px;
   background-color: var(--popup-menu-color, #242627);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
 }

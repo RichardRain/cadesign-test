@@ -2,6 +2,11 @@
   min-inline-size: 100%;
 }
 
+.form__submit-block .form__validation-message {
+  top: 75%;
+  left: 4px;
+}
+
 @media (min-width: 768px) {
   .form__submit-block {
     padding: 38px 30px;

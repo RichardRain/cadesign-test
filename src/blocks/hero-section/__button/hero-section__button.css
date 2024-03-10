@@ -10,3 +10,7 @@
   border: none;
   cursor: pointer;
 }
+
+.hero-section__button:focus-visible {
+  outline: none;
+}

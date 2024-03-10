@@ -1,3 +1,7 @@
+@import url('./__list-item/team-section__list-item.css');
+@import url('./__list-item/team-section__list-item_visible.css');
+@import url('./__button/team-section__button.css');
+@import url('./__button/team-section__button_inactive.css');
 @import url('./__card-image/team-section__card-image.css');
 @import url('./__image-block/team-section__image-block.css');
 @import url('./__card/team-section__card.css');
